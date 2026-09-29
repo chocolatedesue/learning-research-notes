@@ -1,0 +1,91 @@
+site_name: 科研经验笔记
+site_description: 彭思达《本人的科研经验》整理版
+docs_dir: docs
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.indexes
+    - navigation.expand
+    - navigation.sections
+    - navigation.top
+    - header.autohide
+    - content.code.copy
+    - toc.follow
+    - search.suggest
+    - search.highlight
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/link
+        name: 跟随系统
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: white
+      toggle:
+        icon: material/toggle-switch
+        name: 切换到暗色
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      toggle:
+        icon: material/toggle-switch-off
+        name: 切换到亮色
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - attr_list
+  - md_in_html
+  - footnotes
+  - def_list
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+nav:
+  - 首页:
+      - 首页: index.md
+      - 如何努力成为一个 Top Ph.D. Student: overview/top-phd.md
+      - 更新日志: overview/changelog.md
+  - 起步:
+      - 如何在科研上起步: start/getting-started.md
+      - 做科研前要有的心理准备: start/psychology.md
+      - 学习计划的一个例子: start/study-plan-example.md
+      - 常用工具与配置: start/tooling.md
+  - 科研能力:
+      - 如何培养自己的科研能力: skills/overview.md
+      - 如何培养想 idea 的能力: skills/idea.md
+      - 如何有效地读论文: skills/read-papers.md
+      - 怎么找论文: skills/find-papers.md
+      - 如何与导师 meet: skills/meet.md
+      - 分析实验不 work 的原因: skills/debug-experiment.md
+      - 怎么写实验记录: skills/experiment-log.md
+  - Research Project:
+      - 如何做 Research Project: project/index.md
+      - 核心技术问题分析模板: project/technical-questions.md
+      - 从面试问题反思科研的宝贵品质: project/taboo.md
+  - 论文写作:
+      - 论文写作模板: writing/template.md
+      - 如何练习写论文: writing/practice.md
+      - 高水平科研工作者的写作经验: writing/expert-experience.md
+  - 汇报与答辩:
+      - 怎么做学术报告 Slides: talk/slides.md
+      - 怎么 Rebuttal: talk/rebuttal.md
+  - 他山之石:
+      - 博士生的楷模：Sebastian Starke: others/qualities.md
+      - 外部科研经验: others/external.md
+  - 原始资料:
+      - Notion 页面索引: raw/notion-index.md
+      - 原始素材清单: raw/assets.md
+copyright: 正文版权归原作者彭思达所有 · 本站为个人学习整理

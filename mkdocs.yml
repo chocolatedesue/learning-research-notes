@@ -1,5 +1,5 @@
 site_name: 科研经验笔记
-site_description: 彭思达《本人的科研经验》整理版
+site_description: 彭思达《本人的科研经验》整理版（含 Notion 页面闭包）
 docs_dir: docs
 theme:
   name: material
@@ -60,31 +60,52 @@ nav:
       - 更新日志: overview/changelog.md
   - 起步:
       - 如何在科研上起步: start/getting-started.md
-      - 做科研前要有的心理准备: start/psychology.md
-      - 学习计划的一个例子: start/study-plan-example.md
-      - 常用工具与配置: start/tooling.md
+      - 科研学习与课程学习的不同之处: start/psychology.md
+      - 学习计划参考例子: start/study-plan-example.md
+      - 设备配置: start/tooling.md
   - 科研能力:
       - 如何培养自己的科研能力: skills/overview.md
       - 如何培养想 idea 的能力: skills/idea.md
       - 如何有效地读论文: skills/read-papers.md
+      - 如何构建 literature tree: skills/literature-tree.md
       - 怎么找论文: skills/find-papers.md
-      - 如何与导师 meet: skills/meet.md
-      - 分析实验不 work 的原因: skills/debug-experiment.md
-      - 怎么写实验记录: skills/experiment-log.md
+      - 如何高效地讨论: skills/meet.md
+      - 如何找到实验不 work 的原因: skills/debug-experiment.md
+      - 怎么做实验记录: skills/experiment-log.md
+      - 实验记录模板: skills/experiment-log-template.md
+      - 实验记录示例（3.24）: skills/experiment-log-example.md
   - Research Project:
       - 如何做 Research Project: project/index.md
       - 核心技术问题分析模板: project/technical-questions.md
-      - 从面试问题反思科研的宝贵品质: project/taboo.md
+      - 科研上忌讳的事情有哪些: project/taboo.md
+      - 从面试问题反思科研的宝贵品质: project/qualities-from-interview.md
   - 论文写作:
       - 论文写作模板: writing/template.md
-      - 如何练习写论文: writing/practice.md
+      - 怎么练习写论文: writing/practice.md
       - 高水平科研工作者的写作经验: writing/expert-experience.md
+      - 如何改一篇论文的写作: writing/revise.md
+      - 怎么审论文: writing/review.md
+      - 如何用 copilot 和 GPT 辅助英语写作: writing/copilot-english.md
+      - 写作思路典例: writing/examples.md
   - 汇报与答辩:
-      - 怎么做学术报告 Slides: talk/slides.md
-      - 怎么 Rebuttal: talk/rebuttal.md
+      - 如何做学术报告 slides: talk/slides.md
+      - 怎么 rebuttal: talk/rebuttal.md
   - 他山之石:
       - 博士生的楷模：Sebastian Starke: others/qualities.md
+      - Phase for Character Control: others/phase.md
       - 外部科研经验: others/external.md
+      - 未公开的引用页面: others/unavailable.md
+  - 个人学习笔记:
+      - Sida Peng（彭思达）: notes/sida-peng.md
+      - 探索性实验应遵循最小可行性: notes/minimal-viable.md
+      - 自然科学的定义: notes/science-definition.md
+      - 《深度强化学习》学习笔记: notes/deep-rl.md
+      - 张祥雨访谈笔记: notes/zhang-xiangyu.md
+      - GPT-4o 相关技术笔记: notes/gpt4o.md
+      - 3D LLM 的 pipeline 总结: notes/3d-llm.md
+      - 具身智能的 pipeline 总结: notes/embodied.md
+      - Ross Girshick 的 talk 笔记: notes/ross-girshick.md
+      - LeCun Talk 笔记: notes/lecun.md
   - 原始资料:
       - Notion 页面索引: raw/notion-index.md
       - 原始素材清单: raw/assets.md

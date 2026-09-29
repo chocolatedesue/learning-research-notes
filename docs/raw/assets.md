@@ -1,6 +1,6 @@
 # 原始素材清单
 
-仓库正文共抽出 Notion 页面 18 个、PDF 14 个、图片 1 个、视频 4 个、其他站点链接 23 个。
+仓库正文共抽出 Notion 入口 18 个、PDF 14 个、图片 1 个、视频 4 个、其他站点链接 23 个。
 
 ## PDF
 
@@ -19,7 +19,7 @@
 - https://pengsida.net/files/Wujun_Li_Undergraduate_learning_research.pdf
 - https://github.com/user-attachments/files/18051592/YouAndYourResearch.pdf
 
-## 其他站点链接（课程与个人主页）
+## 其他站点链接
 
 - https://pengsida.net/
 - https://xzhou.me/

@@ -1,5 +1,3 @@
-> 出处：[原文链接](https://pengsida.notion.site/59569d7b66954578b21bf1dc6ea35776)
-
 ## 设备配置
 
 ## 一 shell的配置
@@ -8,7 +6,9 @@
 [https://github.com/ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
 然后是插件的安装
 1.设备之间复制shell的配置：[https://github.com/rutchkiwi/copyzshell](https://github.com/rutchkiwi/copyzshell)
+对于已经有一份oh my zsh配置的机器，如果有新的机器需要配置，在有zsh的情况下不用重新执行下面的几步(不要安装oh my zsh，直接传就可以了，安装了的话无法直接覆盖会比较麻烦！），而是直接传送就可以了，如果需要添加机器的port，参考issue
 2.命令高亮以及命令语法检测（必装）：[https://github.com/zsh-users/zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
+*注意：用里面oh my zsh的安装方式，方便迁移
 3.自动补全auto suggestion（必装）：[https://zhuanlan.zhihu.com/p/111707433](https://zhuanlan.zhihu.com/p/111707433)
 补全如果出现了想要的语句，则直接ctrl+f选择
 如果需要显示所有可选项目，点击一次tab只能显示所有可选项但还是需要手动输入；点击两次tab可以直接用方向键选择项目
@@ -32,8 +32,6 @@ tmux：如下
 vim：如下
 ### tmux配置：
 tmux中添加鼠标:
-对于已经有一份oh my zsh配置的机器，如果有新的机器需要配置，在有zsh的情况下不用重新执行下面的几步(不要安装oh my zsh，直接传就可以了，安装了的话无法直接覆盖会比较麻烦！），而是直接传送就可以了，如果需要添加机器的port，参考issue
-*注意：用里面oh my zsh的安装方式，方便迁移
 ```Python
 touch ~/.tmux.conf
 echo "set -g mouse on" >> ~/.tmux.conf 

@@ -530,6 +530,7 @@ alias、link_to_page 各算一条边，一直走到不再有新页面为止。�
         return "\n".join(out)
 
     cfg = f"""site_name: 科研经验笔记
+site_url: https://chocolatedesue.github.io/learning-research-notes/
 site_description: 彭思达《本人的科研经验》整理版（含 Notion 页面闭包）
 docs_dir: docs
 theme:

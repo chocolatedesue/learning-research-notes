@@ -1,3 +1,5 @@
+> 原文：[Notion 原文](https://pengsida.notion.site/9533b857615345108d7624b6e76a2ba3) · 作者可能已更新，以原文为准。
+
 ## 3D LLM的pipeline总结
 
 [https://github.com/ActiveVisionLab/Awesome-LLM-3D](https://github.com/ActiveVisionLab/Awesome-LLM-3D)

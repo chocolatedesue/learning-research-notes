@@ -1,3 +1,5 @@
+> 原文：[Notion 原文](https://pengsida.notion.site/c13c7e52aab64c1a8e3576b97fcb9851) · 作者可能已更新，以原文为准。
+
 ## 怎么练习写论文
 
 > 文档汇总（GitHub Repo）：[https://github.com/pengsida/learning_research](https://github.com/pengsida/learning_research)

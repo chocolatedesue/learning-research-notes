@@ -1,3 +1,5 @@
+> 原文：[Notion 原文](https://pengsida.notion.site/1d13fe292ff180de91afcb7f2eb57b69) · 作者可能已更新，以原文为准。
+
 ## 从面试问题的角度反思科研的宝贵品质
 
 > 文档汇总（GitHub Repo）：[https://github.com/pengsida/learning_research](https://github.com/pengsida/learning_research)

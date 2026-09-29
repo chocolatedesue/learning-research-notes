@@ -1,5 +1,4 @@
-> 出处：[pengsida/learning_research](https://github.com/pengsida/learning_research)
-
+> 原文：[pengsida/learning_research · changelog](https://github.com/pengsida/learning_research/blob/master/changelog) · 仓库正文；Notion 侧若更新不会反映在这里。
 - 2026年6月6日，更新了文档《论文写作模板》:https://www.notion.so/pengsida/c1a22465a0fa4b15a12985223916048e，增加了基于金字塔原理的写作方式。
 - 2026年5月8日，更新了文档《怎么rebuttal》:https://www.notion.so/pengsida/rebuttal-af99ce47103e4917b6a5bd1fd4b3c022，增加了Rebuttal的语言风格。
 - 2026年5月3日，更新了文档《怎么rebuttal》:https://www.notion.so/pengsida/rebuttal-af99ce47103e4917b6a5bd1fd4b3c022，增加了Rebuttal的基本流程图。

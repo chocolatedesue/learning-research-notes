@@ -1,3 +1,5 @@
+> 原文：[Notion 原文](https://pengsida.notion.site/59569d7b66954578b21bf1dc6ea35776) · 作者可能已更新，以原文为准。
+
 ## 设备配置
 
 ## 一 shell的配置

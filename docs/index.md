@@ -1,3 +1,5 @@
+> 原文：[pengsida/learning_research](https://github.com/pengsida/learning_research) · 本站为整理副本，正文版权归原作者。
+
 # 科研经验笔记
 
 把 [pengsida/learning_research](https://github.com/pengsida/learning_research)（《本人的科研经验》，

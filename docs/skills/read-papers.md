@@ -1,3 +1,5 @@
+> 原文：[Notion 原文](https://pengsida.notion.site/d192db870bc64436ae4a4a590b36772a) · 作者可能已更新，以原文为准。
+
 ## 如何有效地读论文
 
 > 文档汇总（GitHub Repo）：[https://github.com/pengsida/learning_research](https://github.com/pengsida/learning_research)

@@ -1,3 +1,5 @@
+> 原文：[Notion 原文](https://pengsida.notion.site/1703fe292ff1809e92d2ff48f47e06de) · 作者可能已更新，以原文为准。
+
 ## Phase for Character Control
 
 参考文章：

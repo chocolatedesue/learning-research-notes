@@ -1,3 +1,5 @@
+> 原文：[Notion 原文](https://pengsida.notion.site/1223fe292ff180eaaa49ca6ac47988bc) · 作者可能已更新，以原文为准。
+
 ## LeCun Talk笔记
 
 LeCun认为的关键AI能力：

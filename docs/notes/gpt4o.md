@@ -1,3 +1,5 @@
+> 原文：[Notion 原文](https://pengsida.notion.site/1c63fe292ff180499ea0cc4e1e1b163e) · 作者可能已更新，以原文为准。
+
 ## gpt4o相关技术学习笔记
 
 ### gpt4o的动机和核心技术问题

@@ -1,3 +1,5 @@
+> 原文：[Notion 原文](https://pengsida.notion.site/1053fe292ff18015b2f3cde4498a5f0f) · 作者可能已更新，以原文为准。
+
 ## 自然科学的定义（数学与科学的区别）
 
 转载自：[https://hr.edu.cn/xueshu/202209/t20220908_2244759.shtml](https://hr.edu.cn/xueshu/202209/t20220908_2244759.shtml)

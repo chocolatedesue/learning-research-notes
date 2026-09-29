@@ -1,3 +1,5 @@
+> 原文：[Notion 原文](https://pengsida.notion.site/da6ce171c13846b7a7ffaa7473ffa6ea) · 作者可能已更新，以原文为准。
+
 ## 如何培养想idea的能力（选题能力和解题能力）
 
 > 文档汇总（GitHub Repo）：[https://github.com/pengsida/learning_research](https://github.com/pengsida/learning_research)

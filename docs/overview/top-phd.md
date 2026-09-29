@@ -1,5 +1,4 @@
-> 出处：[pengsida/learning_research](https://github.com/pengsida/learning_research)
-
+> 原文：[pengsida/learning_research · README.md](https://github.com/pengsida/learning_research/blob/master/README.md) · 仓库正文；Notion 侧若更新不会反映在这里。
 
 
 ## Motivation of This Repository

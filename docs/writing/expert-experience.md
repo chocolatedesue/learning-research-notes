@@ -1,3 +1,5 @@
+> 原文：[Notion 原文](https://pengsida.notion.site/74aef88b9187439fa4e301704f6eb49a) · 作者可能已更新，以原文为准。
+
 ## 高水平科研工作者的写作经验
 
 > 文档汇总（GitHub Repo）：[https://github.com/pengsida/learning_research](https://github.com/pengsida/learning_research)

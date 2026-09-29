@@ -1,3 +1,5 @@
+> 原文：[Notion 原文](https://pengsida.notion.site/810f02670691444f8c94cc3d5b76dcbc) · 作者可能已更新，以原文为准。
+
 ## 如何做学术报告slides
 
 > 文档汇总（GitHub Repo）：[https://github.com/pengsida/learning_research](https://github.com/pengsida/learning_research)

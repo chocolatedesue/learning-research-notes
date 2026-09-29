@@ -1,3 +1,5 @@
+> 原文：[Notion 原文](https://pengsida.notion.site/a3fe9f17b8af46558cd1112627009c83) · 作者可能已更新，以原文为准。
+
 ## 科研学习与课程学习的不同之处
 
 > 文档汇总（GitHub Repo）：[https://github.com/pengsida/learning_research](https://github.com/pengsida/learning_research)

@@ -1,3 +1,6 @@
+> 原文：[pengsida/learning_research](https://github.com/pengsida/learning_research) · 下列材料由原作者推荐，本站只给链接。
+
+
 # 外部科研经验
 
 下面是原作者推荐的高水平科研工作者的科研经验，原件托管在 `pengsida.net`，本站不转载正文，只给链接。

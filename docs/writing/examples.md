@@ -1,3 +1,5 @@
+> 原文：[Notion 原文](https://pengsida.notion.site/1723fe292ff18053ade0d7afa6c0328a) · 作者可能已更新，以原文为准。
+
 ## 写作思路典例
 
 ### **Introduction**

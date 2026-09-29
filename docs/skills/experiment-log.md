@@ -1,3 +1,5 @@
+> 原文：[Notion 原文](https://pengsida.notion.site/caf34717f4c046c69ee7e14ea953c46f) · 作者可能已更新，以原文为准。
+
 ## 怎么做实验记录
 
 > 文档汇总（GitHub Repo）：[https://github.com/pengsida/learning_research](https://github.com/pengsida/learning_research)

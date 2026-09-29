@@ -1,3 +1,5 @@
+> 原文：[Notion 原文](https://pengsida.notion.site/2213fe292ff18044b20ffe15db83f4f8) · 作者可能已更新，以原文为准。
+
 ## 张祥雨访谈-多模态&AGI认知学习笔记
 
 [https://zhuanlan.zhihu.com/p/1913377304173872183](https://zhuanlan.zhihu.com/p/1913377304173872183)

@@ -1,3 +1,5 @@
+> 原文：[Notion 原文](https://pengsida.notion.site/1aee6e718de6472f834d13da8f4ff097) · 作者可能已更新，以原文为准。
+
 ## 如何找到实验不work的原因
 
 > 文档汇总（GitHub Repo）：[https://github.com/pengsida/learning_research](https://github.com/pengsida/learning_research)

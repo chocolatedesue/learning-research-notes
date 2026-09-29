@@ -1,5 +1,4 @@
-> 出处：[pengsida/learning_research](https://github.com/pengsida/learning_research)
-
+> 原文：[pengsida/learning_research · getting_advanced_in_research.md](https://github.com/pengsida/learning_research/blob/master/getting_advanced_in_research.md) · 仓库正文；Notion 侧若更新不会反映在这里。
 # 如何培养自己的科研能力
 
 在做一篇论文主要需要有三方面的能力：想idea的能力（寻找重要的科研问题、提出解决方案）、写作能力 (展示能力)、实验能力。

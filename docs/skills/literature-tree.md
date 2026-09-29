@@ -1,3 +1,5 @@
+> 原文：[Notion 原文](https://pengsida.notion.site/f8b36e484b344a2893a94e4608b72ec2) · 作者可能已更新，以原文为准。
+
 ## 如何构建literature tree（如何进行literature review，构建novelty tree和challenge-insight tree）
 
 > 文档汇总（GitHub Repo）：[https://github.com/pengsida/learning_research](https://github.com/pengsida/learning_research)

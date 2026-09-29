@@ -1,5 +1,4 @@
-> 出处：[pengsida/learning_research](https://github.com/pengsida/learning_research)
-
+> 原文：[pengsida/learning_research · getting_started_in_research.md](https://github.com/pengsida/learning_research/blob/master/getting_started_in_research.md) · 仓库正文；Notion 侧若更新不会反映在这里。
 # 如何在科研上起步
 
 ## 第一阶段

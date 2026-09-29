@@ -1,3 +1,5 @@
+> 原文：[Notion 原文](https://pengsida.notion.site/1293fe292ff180bfa5deeed526821d78) · 作者可能已更新，以原文为准。
+
 ## 如何改一篇论文的写作
 
 > 文档汇总（GitHub Repo）：[https://github.com/pengsida/learning_research](https://github.com/pengsida/learning_research)

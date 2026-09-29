@@ -1,3 +1,5 @@
+> 原文：[Notion 原文](https://pengsida.notion.site/092795ee24fb408fb0eb340186949c78) · 作者可能已更新，以原文为准。
+
 ## 具身智能的pipeline总结
 
 具身智能的pipeline（服务于最终的决策）：

@@ -34,6 +34,15 @@ ASSETS = None
 _PREFIX = ""
 WARN = []
 
+REPO_NAME = "pengsida/learning_research"
+REPO_HOME = "https://github.com/pengsida/learning_research"
+REPO_BLOB = "https://github.com/pengsida/learning_research/blob/master/"
+
+
+def source_line(label: str, url: str, tail: str = "作者可能已更新，以原文为准。") -> str:
+    """每页开头的出处行：一个直链加一句提醒。"""
+    return f"> 原文：[{label}]({url}) · {tail}\n"
+
 
 # --------------------------------------------------------------------------- #
 # 页面结构
@@ -260,7 +269,9 @@ def page_md(pid: str) -> str:
     if not order:
         return '\n!!! warning "抓取异常"\n    块树为空。\n'
     title = rich(bl[root].get("properties") or {}) or PAGE_REF.get(pid) or "(无标题)"
-    lines, kids, orphans = [f"## {title}", ""], [], []
+    # 每页开头给原文直链，方便跳回 Notion 核对最新版本
+    src = source_line("Notion 原文", f"https://pengsida.notion.site/{pid}")
+    lines, kids, orphans = [src, f"## {title}", ""], [], []
     reached = {b for b, _ in order}
     for bid, _d in order[1:]:
         v = bl.get(bid) or {}
@@ -414,7 +425,7 @@ def main():
 
     missing = sorted(p for p, m in graph.items() if m.get("missing"))
     ok_n = len(graph) - len(missing)
-    index_md = f"""# 科研经验笔记
+    index_md = source_line(REPO_NAME, REPO_HOME, "本站为整理副本，正文版权归原作者。") + f"""\n# 科研经验笔记
 
 把 [pengsida/learning_research](https://github.com/pengsida/learning_research)（《本人的科研经验》，
 作者彭思达，浙江大学）与它外链的 Notion 文档整理成的一个站点，框架是 MkDocs + Material for MkDocs。
@@ -450,7 +461,8 @@ alias、link_to_page 各算一条边，一直走到不再有新页面为止。�
             if rel == "index.md":
                 write(rel, index_md)
             elif rel == "others/external.md":
-                body = ["# 外部科研经验", "",
+                body = [source_line(REPO_NAME, REPO_HOME, "下列材料由原作者推荐，本站只给链接。"), "",
+                        "# 外部科研经验", "",
                         "下面是原作者推荐的高水平科研工作者的科研经验，原件托管在 `pengsida.net`，"
                         "本站不转载正文，只给链接。", ""]
                 for u in inv["pdf"]:
@@ -469,7 +481,8 @@ alias、link_to_page 各算一条边，一直走到不再有新页面为止。�
                          "- [《learning research》Talk Video](https://www.bilibili.com/video/BV1DA4m1V7D3/)"]
                 write(rel, "\n".join(body))
             elif rel == "others/unavailable.md":
-                body = ["# 未公开的引用页面", "",
+                body = [source_line(REPO_NAME, REPO_HOME, "下列页面被正文引用但未公开分享。"), "",
+                        "# 未公开的引用页面", "",
                         "正文里引到了下面这些页面，但它们没有公开分享，抓取接口返回 400/404，"
                         "所以只能记下引用位置，正文无法收录。", ""]
                 for pid in missing:
@@ -479,7 +492,8 @@ alias、link_to_page 各算一条边，一直走到不再有新页面为止。�
                              "《深度强化学习》学习笔记里被引用。"]
                 write(rel, "\n".join(body))
             elif rel == "raw/notion-index.md":
-                body = ["# Notion 页面索引", "",
+                body = [source_line(REPO_NAME, REPO_HOME, "索引由本站整理。"), "",
+                        "# Notion 页面索引", "",
                         f"仓库正文指向 {len(inv['notion'])} 个 Notion 入口；闭包展开后共 {len(graph)} 个页面。",
                         "", "## 入口页面", ""]
                 for it in sorted(inv["notion"], key=lambda x: x["id"]):
@@ -491,7 +505,8 @@ alias、link_to_page 各算一条边，一直走到不再有新页面为止。�
                                 + ("（不可访问）" if m.get("missing") else ""))
                 write(rel, "\n".join(body))
             elif rel == "raw/assets.md":
-                body = ["# 原始素材清单", "",
+                body = [source_line(REPO_NAME, REPO_HOME, "清单由本站整理。"), "",
+                        "# 原始素材清单", "",
                         f"仓库正文共抽出 Notion 入口 {len(inv['notion'])} 个、PDF {len(inv['pdf'])} 个、"
                         f"图片 {len(inv['image'])} 个、视频 {len(inv['video'])} 个、"
                         f"其他站点链接 {len(inv['web'])} 个。", "", "## PDF", ""]
@@ -502,8 +517,9 @@ alias、link_to_page 各算一条边，一直走到不再有新页面为止。�
             elif spec and spec.startswith("repo:"):
                 src = os.path.join(a.repo, spec.split(":", 1)[1])
                 text = open(src, encoding="utf-8").read()
-                head = ("> 出处：[pengsida/learning_research]"
-                        "(https://github.com/pengsida/learning_research)\n\n")
+                fname = spec.split(":", 1)[1]
+                head = source_line(f"{REPO_NAME} · {fname}", REPO_BLOB + fname,
+                                   "仓库正文；Notion 侧若更新不会反映在这里。")
                 if spec.endswith("README.md"):
                     text = re.sub(r"^# .*$", "", text, count=1, flags=re.M)
                 for old, new in REPO_LINKS.items():

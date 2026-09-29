@@ -1,3 +1,5 @@
+> 原文：[Notion 原文](https://pengsida.notion.site/24e3fe292ff180d582e8cdb0a03cb8c2) · 作者可能已更新，以原文为准。
+
 ## 《深度强化学习》学习笔记
 
 #### 需要学习的知识点

@@ -1,3 +1,5 @@
+> 原文：[Notion 原文](https://pengsida.notion.site/1713fe292ff1808eb33be93ea2d79ad9) · 作者可能已更新，以原文为准。
+
 ## 博士生的楷模：Sebastian Starke
 
 > 文档汇总（GitHub Repo）：[https://github.com/pengsida/learning_research](https://github.com/pengsida/learning_research)

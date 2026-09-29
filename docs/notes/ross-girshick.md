@@ -1,3 +1,5 @@
+> 原文：[Notion 原文](https://pengsida.notion.site/d9b48545884a47799fc5829cad8af2b6) · 作者可能已更新，以原文为准。
+
 ## Ross Girshick的talk笔记
 
 - 附件：Ross_Girshick的Talk.pdf —— [在原页查看](https://pengsida.notion.site/d9b48545884a47799fc5829cad8af2b6)（原页附件，本站未镜像）
